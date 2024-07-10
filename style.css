@@ -1,0 +1,353 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    background-color: darkgreen;
+    width: 100%;
+    height: 10vh;
+}
+
+.shop-navbar {
+    background-color: darkgreen;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.li-navbar:hover {
+    background-color: green;
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 50px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.login-text {
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    right: 150px;
+    top: 20px;
+    font-weight: bold;
+}
+
+.home-content {
+    min-height: 300px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('background_home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shop-content {
+    min-height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.a-content {
+    background-position-x: x end;
+    color: black;
+    text-decoration: none;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* HOME SECTION */
+.home-title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 35px;
+    color: rgb(9, 113, 9);
+    top: 20px;
+    position: relative;
+}
+
+.home-text1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    top: -70px;
+    color: rgb(9, 113, 9);
+    font-weight: bold;
+}
+
+.home-text2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 90px;
+    background-color: rgb(9, 113, 9);
+    width: 450px;
+    height: 30px;
+}
+
+.home-text3 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    color: rgb(9, 113, 9);
+    font-weight: bold;
+}
+
+/* SHOP SECTION */
+.shop-title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    top: 10px;
+    font-size: 40px;
+    color: rgb(9, 113, 9);
+    top: 20px;
+    position: middle;
+}
+
+.shop-text1-content,
+.shop-text2-content,
+.shop-text3-content,
+.shop-text4-content,
+.shop-text5-content,
+.shop-text6-content {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f7f7f7;
+    box-shadow: 5px 10px #888888;
+    border-radius: 50px;
+}
+
+.shop-text1-content {
+    top: 150px;
+    left: 50px;
+}
+
+.shop-text2-content {
+    top: 150px;
+    left: 300px;
+}
+
+.shop-text3-content {
+    top: 400px;
+    left: 170px;
+}
+
+.shop-text4-content {
+    top: 150px;
+    right: 50px;
+}
+
+.shop-text5-content {
+    top: 150px;
+    right: 300px;
+}
+
+.shop-text6-content {
+    top: 400px;
+    right: 170px;
+}
+
+.shop-text1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    justify-items: center;
+    font-size: 20px;
+    position: relative;
+    color: rgb(9, 113, 9);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.img-selada,
+.img-kangkung,
+.img-bayam-merah,
+.img-melon,
+.img-stroberi,
+.img-pakcoy {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+}
+
+.img-selada {
+    top: 200px;
+    left: 65px;
+}
+
+.img-kangkung {
+    top: 200px;
+    left: 310px;
+}
+
+.img-bayam-merah {
+    top: 450px;
+    left: 190px;
+}
+
+.img-melon {
+    top: 200px;
+    left: 1310px;
+}
+
+.img-stroberi {
+    top: 200px;
+    left: 1060px;
+}
+
+.img-pakcoy {
+    top: 450px;
+    left: 1190px;
+}
+
+/* BUY SECTION */
+.buy-text1,
+.buy-text2,
+.buy-text3,
+.buy-text4,
+.buy-text5,
+.buy-text6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lime;
+    color: white;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    height: 30px;
+    width: 160px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.buy-text1 {
+    top: 315px;
+    left: 70px;
+}
+
+.buy-text2 {
+    top: 315px;
+    left: 320px;
+}
+
+.buy-text3 {
+    top: 565px;
+    left: 190px;
+}
+
+.buy-text4 {
+    top: 315px;
+    right: 320px;
+}
+
+.buy-text5 {
+    top: 315px;
+    right: 70px;
+}
+
+.buy-text6 {
+    top: 565px;
+    right: 190px;
+}
+
+.buy-text1:hover,
+.buy-text2:hover,
+.buy-text3:hover,
+.buy-text4:hover,
+.buy-text5:hover,
+.buy-text6:hover {
+    color: white;
+    background-color: darkgreen;
+}
+
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+.container-footer {
+    height: 10vh;
+    background-color: darkgreen;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: x end;
+}
+
+.h1-footer {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+/* Logo Positions */
+.logo-ig {
+    width: 10%;
+    height: 60%;
+    position: absolute;
+}
+.logo-fb {
+    width: 5%;
+    height: 30%;
+    position: absolute;
+}
+
+/* Adjust these positions as needed */
+.logo-ig {
+    top: 15px;
+    left: 240px;
+}
+
+.logo-fb {
+    top: 25px;
+    left: 320px;
+}
+.h1-footer {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
